@@ -44,19 +44,19 @@ While implementing your solution **please take care of the following requirement
 
 ### Functional requirements
 
-- No need for UI;
 - The REST API methods should be implemented based on the specification provided in the linked swagger file;
 - Add 2 new methods, one to **view** your booked events and one to **cancel** your reservation _**(both should be authorized)**_;
 - Introduce a periodic task to send notifications for upcoming events to users and create history/audit event log for this.
+- No need for UI;
 
 ### Non-functional requirements
 
-- Input/output data must be in JSON format;
-- The project must be buildable and runnable;
-- The project must have a README file with build/run/test instructions (use DB that can be run locally, e.g. in-memory, via container);
-- Required data must be preloaded in the database;
-- JUnit tests are optional but advisable (if you have time);
-- Show us how you work through your commit history.
+- The project MUST be buildable and runnable;
+- The project MUST have Unit tests;
+- The project MUST have a README file with build/run/test instructions (use a DB that can be run locally, e.g. in-memory, via container);
+- Any data required by the application to run (e.g. reference tables, dummy data) MUST be preloaded in the database;
+- Input/output data MUST be in JSON format;
+- Use a framework of your choice, but popular, up-to-date, and long-term support versions are recommended.
 
 ---
 
